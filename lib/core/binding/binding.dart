@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
 
-import '../services/net_works_services.dart';
+import '../services/networks_services.dart';
 import '../services/permission_service.dart';
 import '../utils/storage/storage.dart';
 

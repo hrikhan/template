@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../utils/app_colors/appcolors.dart';
+import '../utils/constant/appcolors.dart';
 
 class AppTheme {
   AppTheme._();
@@ -23,7 +23,7 @@ class AppTheme {
           fontWeight: FontWeight.w600,
           color: AppColors.textPrimary,
         ),
-        bodyMedium: TextStyle(color: AppColors.textSecondary),
+        bodyMedium: TextStyle(color: AppColors.textPrimary),
       ),
       useMaterial3: true,
     );
